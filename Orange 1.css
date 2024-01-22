@@ -20,9 +20,10 @@
   }
 }
 
-/* Style the chat container with a background image */
+/* Style the chat container with a glass-like effect */
 .vfrc-chat {
-  background: linear-gradient(to right, #ff8c00, #ff6f00), url('https://i.ibb.co/HpL6J1j/background-1177451-1280.jpg');
+  background: linear-gradient(to right, rgba(255, 140, 0, 0.6), rgba(255, 111, 0, 0.6)), url('https://i.ibb.co/HpL6J1j/background-1177451-1280.jpg');
+  background-blend-mode: overlay; /* Blend the linear gradient with the background image */
   background-size: cover; /* Ensure the image covers the entire container */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -31,7 +32,7 @@
 
 /* Style the chat header */
 .vfrc-header {
-  background-color: #e57200; /* Orange background for the chat header */
+  background-color: rgba(229, 114, 20, 0.8); /* Adjusted orange background for the chat header with transparency */
   color: #fff; /* White text for better contrast */
   padding: 10px;
   border-radius: 10px 10px 0 0;
