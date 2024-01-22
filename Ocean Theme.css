@@ -1,8 +1,7 @@
 /* Adjust the chat widget width for larger screens */
 .vfrc-widget--chat {
   max-width: 600px;
-  margin: 0 auto;
-}
+  }
 
 /* Set max-width for system response messages within the list */
 .vfrc-system-response--list .vfrc-message--chat {
@@ -12,7 +11,7 @@
 
 /* Style the chat container */
 .vfrc-chat {
-  background-color: #3498db; /* Ocean-like blue */
+  background: linear-gradient(to right, #3498db, #6bb9d7); /* Gradient background for the chat container */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -20,7 +19,7 @@
 
 /* Style the chat header */
 .vfrc-header {
-  background: #2979b5; /* Darker shade of blue for header */
+  background: linear-gradient(to right, #2979b5, #5d99b8); /* Gradient background for the chat header */
   color: #fff; /* White text for better contrast */
   padding: 10px;
   border-radius: 10px 10px 0 0;
@@ -39,7 +38,7 @@
 
 /* Style the chat messages */
 .vfrc-message {
-  background-color: #87c2eb; /* Lighter shade of blue for messages */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for messages */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -48,12 +47,12 @@
 
 /* Style the user's messages */
 .vfrc-user-response .vfrc-message {
-  background-color: #aed6f1; /* Lighter shade of blue for user's messages */
+  background-color: rgba(255, 255, 255, 0.6); /* Slightly more transparent white for user's messages */
 }
 
 /* Style the assistant's messages */
 .vfrc-system-response .vfrc-message {
-  background-color: #fdd835; /* Yellow for assistant's messages */
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white for assistant's messages */
 }
 
 /* Style the message input field */
@@ -66,7 +65,7 @@
 
 /* Style the send button */
 .vfrc-chat-input--button {
-  background-color: #3498db; /* Ocean-like blue */
+  background: linear-gradient(to right, #3498db, #6bb9d7); /* Gradient background for the send button */
   color: #fff;
   border: none;
   padding: 10px;
@@ -75,14 +74,14 @@
 
 /* Add hover effect to buttons */
 .vfrc-button {
-  background-color: #3498db; /* Ocean-like blue */
+  background: linear-gradient(to right, #3498db, #6bb9d7); /* Gradient background for buttons */
   color: #fff;
   padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background 0.3s;
 }
 
 .vfrc-button:hover {
-  background-color: #2979b5; /* Darker shade of blue on hover */
+  background: linear-gradient(to right, #2979b5, #5d99b8); /* Darker gradient on hover */
 }
