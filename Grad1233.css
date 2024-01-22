@@ -1,6 +1,6 @@
 /* Adjust the chat widget width for larger screens */
 .vfrc-widget--chat {
-  max-width: 600px;
+  width: 600px;
   }
 
 /* Set max-width for system response messages within the list */
