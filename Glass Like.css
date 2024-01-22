@@ -12,7 +12,7 @@
 
 /* Style the chat container */
 .vfrc-chat {
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  background-color: #3498db; /* Ocean-like blue */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -20,24 +20,26 @@
 
 /* Style the chat header */
 .vfrc-header {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0)); /* Gradient for glass effect */
-  color: #333;
+  background: #2979b5; /* Darker shade of blue for header */
+  color: #fff; /* White text for better contrast */
   padding: 10px;
   border-radius: 10px 10px 0 0;
 }
 
 /* Style the assistant information */
-.vfrc-assistant-info--title {
-  font-size: 1.2em;
-}
-
-.vfrc-assistant-info--description {
-  font-size: 0.8em;
+.vfrc-assistant-info--title,
+.vfrc-assistant-info--description,
+.vfrc-timestamp,
+.vfrc-message,
+.vfrc-input,
+.vfrc-chat-input--button,
+.vfrc-footer--watermark {
+  color: #000; /* Black text for better contrast */
 }
 
 /* Style the chat messages */
 .vfrc-message {
-  background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+  background-color: #87c2eb; /* Lighter shade of blue for messages */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -46,12 +48,12 @@
 
 /* Style the user's messages */
 .vfrc-user-response .vfrc-message {
-  background-color: rgba(173, 216, 230, 0.5); /* Semi-transparent light blue */
+  background-color: #aed6f1; /* Lighter shade of blue for user's messages */
 }
 
 /* Style the assistant's messages */
 .vfrc-system-response .vfrc-message {
-  background-color: rgba(255, 223, 186, 0.5); /* Semi-transparent light orange */
+  background-color: #fdd835; /* Yellow for assistant's messages */
 }
 
 /* Style the message input field */
@@ -64,23 +66,17 @@
 
 /* Style the send button */
 .vfrc-chat-input--button {
-  background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
-  color: #333;
+  background-color: #3498db; /* Ocean-like blue */
+  color: #fff;
   border: none;
   padding: 10px;
   cursor: pointer;
 }
 
-/* Style the chat footer watermark */
-.vfrc-footer--watermark {
-  color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark grey */
-  font-size: 0.8em;
-}
-
 /* Add hover effect to buttons */
 .vfrc-button {
-  background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
-  color: #333;
+  background-color: #3498db; /* Ocean-like blue */
+  color: #fff;
   padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
@@ -88,5 +84,5 @@
 }
 
 .vfrc-button:hover {
-  background-color: rgba(255, 255, 255, 0.8); /* Slightly more opaque on hover */
+  background-color: #2979b5; /* Darker shade of blue on hover */
 }
