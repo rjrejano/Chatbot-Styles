@@ -19,7 +19,7 @@
 
 /* Style the chat header */
 .vfrc-header {
-  background: linear-gradient(to right, #2979b5, #5d99b8); /* Gradient background for the chat header */
+  background-color: #06247d;
   color: #fff; /* White text for better contrast */
   padding: 10px;
   border-radius: 10px 10px 0 0;
@@ -47,7 +47,7 @@
 
 /* Style the user's messages */
 .vfrc-user-response .vfrc-message {
-  background-color: rgba(255, 255, 255, 0.6); /* Slightly more transparent white for user's messages */
+  background-color: #bac0d1; /* Slightly more transparent white for user's messages */
 }
 
 /* Style the assistant's messages */
@@ -69,7 +69,7 @@
   color: #fff;
   border: none;
   padding: 10px;
-  cursor: pointer;
+  cursor: default;
 }
 
 /* Add hover effect to buttons */
