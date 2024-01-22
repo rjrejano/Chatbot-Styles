@@ -15,7 +15,7 @@
   }
 
   .vfrc-system-response--list .vfrc-message--chat {
-    max-width: 100%; /* Full width for messages on smaller screens */
+    width: 100%; /* Full width for messages on smaller screens */
   }
 }
 /* Style the chat container */
@@ -56,7 +56,8 @@
 
 /* Style the user's messages */
 .vfrc-user-response .vfrc-message {
-  background-color: #06247d; 
+  background-color: #06247d;
+  color: #fff;
 }
 
 /* Style the assistant's messages */
