@@ -53,7 +53,7 @@
 .vfrc-input,
 .vfrc-chat-input--button,
 .vfrc-footer--watermark {
-  color: #fff; /* White text for better contrast */
+  color: #000; /* White text for better contrast */
 }
 
 /* Style the chat messages with a slight transparency */
