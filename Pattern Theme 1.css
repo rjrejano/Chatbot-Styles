@@ -83,7 +83,7 @@
   padding: 10px;
   width: calc(100% - 20px);
   background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for the input field */
-  color: #fff; /* White text for better contrast */
+  color: #000; /* White text for better contrast */
 }
 
 /* Style the send button with a customized design */
