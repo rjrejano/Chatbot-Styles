@@ -28,13 +28,14 @@
   overflow: hidden;
 }
 
-/* Style the chat header with black text */
+/* Style the chat header with the new header background image */
 .vfrc-header {
-  background-color: transparent; /* Make the header background transparent */
+  background: url('https://i.ibb.co/7RsQTYF/butterflies-8470967-1280.jpg') center/cover; /* New header background image URL */
   color: #000; /* Black text for better contrast */
   padding: 10px;
   border-radius: 10px 10px 0 0;
 }
+
 
 /* Style the footer with the same background image as the chat container */
 .vfrc-footer {
