@@ -20,26 +20,26 @@
   }
 }
 
-/* Style the chat container with mocha color */
+/* Style the chat container with the new background image */
 .vfrc-chat {
-  background: #8B735B; /* Mocha color for the chat container */
+  background: url('https://i.ibb.co/hf09HzP/pattern-7455773-1280.png') center/cover; /* New background image URL */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
-/* Style the chat header with stunning cartoon image pattern */
+/* Style the chat header with black text */
 .vfrc-header {
-  background: url('https://i.ibb.co/7RsQTYF/butterflies-8470967-1280.jpg') center/cover; /* Replace 'path/to/cartoon-image-pattern.jpg' with your image path */
-  color: #fff; /* White text for better contrast */
+  background-color: transparent; /* Make the header background transparent */
+  color: #000; /* Black text for better contrast */
   padding: 10px;
   border-radius: 10px 10px 0 0;
 }
 
-/* Style the footer with the same stunning cartoon image pattern */
+/* Style the footer with the same background image as the chat container */
 .vfrc-footer {
-  background: url('path/to/cartoon-image-pattern.jpg') center/cover; /* Replace 'path/to/cartoon-image-pattern.jpg' with your image path */
-  color: #fff; /* White text for better contrast */
+  background: url('https://i.ibb.co/hf09HzP/pattern-7455773-1280.png') center/cover; /* New background image URL */
+  color: #000; /* Black text for better contrast */
   padding: 10px;
   border-radius: 0 0 10px 10px;
 }
