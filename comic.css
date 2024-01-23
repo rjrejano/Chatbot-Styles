@@ -1,0 +1,110 @@
+/* Adjust the chat widget width for larger screens */
+.vfrc-widget--chat {
+  width: 600px;
+}
+
+/* Set max-width for system response messages within the list */
+.vfrc-system-response--list .vfrc-message--chat {
+  width: 460px;
+  width: 100%; /* Adjust to full width on smaller screens */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .vfrc-widget--chat {
+    width: 100%; /* Full width for screens less than or equal to 600px */
+  }
+
+  .vfrc-system-response--list .vfrc-message--chat {
+    width: 100%; /* Full width for messages on smaller screens */
+  }
+}
+
+/* Style the chat container with mocha color */
+.vfrc-chat {
+  background: #8B735B; /* Mocha color for the chat container */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Style the chat header with stunning cartoon image pattern */
+.vfrc-header {
+  background: url('https://i.ibb.co/7RsQTYF/butterflies-8470967-1280.jpg') center/cover; /* Replace 'path/to/cartoon-image-pattern.jpg' with your image path */
+  color: #fff; /* White text for better contrast */
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Style the footer with the same stunning cartoon image pattern */
+.vfrc-footer {
+  background: url('path/to/cartoon-image-pattern.jpg') center/cover; /* Replace 'path/to/cartoon-image-pattern.jpg' with your image path */
+  color: #fff; /* White text for better contrast */
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Style the assistant information with white text */
+.vfrc-assistant-info--title,
+.vfrc-assistant-info--description,
+.vfrc-timestamp,
+.vfrc-message,
+.vfrc-input,
+.vfrc-chat-input--button,
+.vfrc-footer--watermark {
+  color: #fff; /* White text for better contrast */
+}
+
+/* Style the chat messages with a slight transparency */
+.vfrc-message {
+  background-color: rgba(139, 115, 91, 0.7); /* Semi-transparent mocha background for messages */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Style the user's messages with a slightly darker mocha background */
+.vfrc-user-response .vfrc-message {
+  background-color: rgba(139, 115, 91, 0.8); /* Slightly darker mocha background for user's messages */
+  color: #fff; /* White text for better contrast */
+}
+
+/* Style the assistant's messages with a slightly lighter mocha background */
+.vfrc-system-response .vfrc-message {
+  background-color: rgba(139, 115, 91, 0.6); /* Slightly lighter mocha background for assistant's messages */
+}
+
+/* Style the message input field with white text */
+.vfrc-input {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Semi-transparent white border */
+  padding: 10px;
+  width: calc(100% - 20px);
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background for the input field */
+  color: #fff; /* White text for better contrast */
+}
+
+/* Style the send button with a customized design */
+.vfrc-chat-input--button {
+  background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient background for the send button */
+  color: #fff; /* White text for better contrast */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Add hover effect to buttons */
+.vfrc-button {
+  background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient background for buttons */
+  color: #fff; /* White text for better contrast */
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.vfrc-button:hover {
+  background: linear-gradient(to right, #e57373, #d32f2f); /* Darker gradient on hover */
+}
