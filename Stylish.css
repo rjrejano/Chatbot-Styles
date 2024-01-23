@@ -89,7 +89,7 @@
 /* Style the send button with a customized design */
 .vfrc-chat-input--button {
   background: linear-gradient(to right, #ff9966, #ff5e62); /* Gradient background for the send button */
-  color: #fff; /* White text for better contrast */
+  color: #000; /* White text for better contrast */
   border: none;
   padding: 10px;
   cursor: pointer;
