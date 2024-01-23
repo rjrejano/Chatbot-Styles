@@ -101,3 +101,14 @@
 .vfrc-button:hover {
   background: linear-gradient(to right, #00e6b8, #004080); /* Darker gradient on hover */
 }
+/* Style the message input field with Neon Glow effect */
+.vfrc-input {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: calc(100% - 20px);
+  background: #000; /* Black background for the input field */
+  color: #00ffcc; /* Neon green text color for the input field */
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.8); /* Glowing neon green text shadow */
+}
+
