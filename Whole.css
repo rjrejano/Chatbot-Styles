@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.vfrc-widget--chat {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    max-width: none !important;
+    max-height: none !important;
+}
+
+.vfrc-user-response .vfrc-message {
+    width: 90% !important; /* Adjust width as needed */
+    padding: 12px 20px !important; /* More padding for larger bubble size */
+    font-size: 1.1em !important; /* Increase font size if needed */
+    margin-bottom: 10px !important; /* Space between messages */
+    /* Add any additional styling you want here, like background-color, border-radius, etc. */
+}
+
+.vfrc-system-response .vfrc-message {
+    width: 90% !important; /* Adjust width as needed */
+    padding: 12px 20px !important; /* More padding for larger bubble size */
+    font-size: 1.1em !important; /* Increase font size if needed */
+    margin-bottom: 10px !important; /* Space between messages */
+    /* Add any additional styling you want here, like background-color, border-radius, etc. */
+}
