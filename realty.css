@@ -58,7 +58,7 @@
 
 /* Style the chat messages with a slight transparency */
 .vfrc-message {
-  background-color: rgba(171, 209, 208, 0.7); /* Semi-transparent mocha background for messages */
+  background-color: rgba(225, 242, 245, 0.7); /* Semi-transparent mocha background for messages */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
