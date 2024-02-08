@@ -5,7 +5,7 @@
 
 /* Set max-width for system response messages within the list */
 .vfrc-system-response--list .vfrc-message--chat {
-  width: 460px;
+  width: 520px;
   
 }
 
@@ -67,13 +67,13 @@
 
 /* Style the user's messages with a slightly darker mocha background */
 .vfrc-user-response .vfrc-message {
-  background-color: rgba(139, 115, 91, 0.8); /* Slightly darker mocha background for user's messages */
+  background-color: rgba(91, 139, 138, 0.7); /* Slightly darker mocha background for user's messages */
   color: #fff; /* White text for better contrast */
 }
 
 /* Style the assistant's messages with a slightly lighter mocha background */
 .vfrc-system-response .vfrc-message {
-  background-color: rgba(139, 115, 91, 0.6); /* Slightly lighter mocha background for assistant's messages */
+  background-color: rgba(91, 139, 138, 0.6); /* Slightly lighter mocha background for assistant's messages */
 }
 
 /* Style the message input field with white text */
