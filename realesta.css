@@ -22,7 +22,7 @@
 
 /* Style the chat container with the new background image */
 .vfrc-chat {
-  background: url('https://i.ibb.co/hf09HzP/pattern-7455773-1280.png') center/cover; /* New background image URL */
+  background: url('https://i.ibb.co/02rt9hJ/boho-background-6847774-1920.jpg') center/cover; /* New background image URL */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -58,7 +58,7 @@
 
 /* Style the chat messages with a slight transparency */
 .vfrc-message {
-  background-color: rgba(139, 115, 91, 0.7); /* Semi-transparent mocha background for messages */
+  background-color: rgba(171, 209, 208, 0.7); /* Semi-transparent mocha background for messages */
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
@@ -67,7 +67,7 @@
 
 /* Style the user's messages with a slightly darker mocha background */
 .vfrc-user-response .vfrc-message {
-  background-color: rgba(91, 139, 138, 0.7); /* Slightly darker mocha background for user's messages */
+  background-color: rgba(6, 47, 54, 0.7); /* Slightly darker mocha background for user's messages */
   color: #fff; /* White text for better contrast */
 }
 
